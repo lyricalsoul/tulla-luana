@@ -1,0 +1,10 @@
+import Mix.Config
+
+config :nostrum,
+  gateway_intents: [
+    :guilds,
+    :guild_messages,
+    :guild_voice_states
+  ],
+  # O token do seu bot
+  token: ""
